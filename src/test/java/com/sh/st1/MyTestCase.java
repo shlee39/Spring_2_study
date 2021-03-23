@@ -22,9 +22,11 @@ public class MyTestCase {
 	@Autowired
 	private Car car;
 
+	
+	
 	@Test
 	public void test1() {
-		System.out.println(car.getName());
+		System.out.println(car.getEngine().getFuel());
 	}
 
 }
